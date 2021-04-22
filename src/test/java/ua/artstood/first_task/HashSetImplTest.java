@@ -92,7 +92,6 @@ public class HashSetImplTest {
 
         sum = 0;
         for (Integer item : set) {
-            System.out.println(item);
             sum += item;
         }
         assertEquals(expected, sum);
@@ -218,4 +217,10 @@ public class HashSetImplTest {
         }
         assertEquals(expected, sum);
     }
+
+
+
+
+
+
 }
